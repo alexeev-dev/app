@@ -1,0 +1,47 @@
+@import 'settings';
+
+/* fonts */
+$main-font: 'Myriad Pro-Regular', sans-serif;
+
+/* colors */
+$primary-color: #ec3e01;
+$white-color: #ffffff;
+$gray-color: #333333;
+
+
+
+// backgrounds
+.bg-gray {background: #f5f6f7;}
+
+// preloader
+.preloader {}
+
+
+
+// application
+.app {
+
+  // header
+  .header {
+  }
+
+  .content {
+
+    // LETS GO!
+    .lets_go {
+
+    }
+  }
+
+  // footer
+  .footer {
+  }
+
+  // RESPONSIVE - Bootstrap sizes
+  @include respond-to(mobile) { background: red; };
+  @include respond-to(xs) { background: black; };
+  @include respond-to(sm) { background: blue; };
+  @include respond-to(md) { background: green; };
+  @include respond-to(lg) { background: orange; };
+  @include respond-to(desktop) {background: none;};
+}
