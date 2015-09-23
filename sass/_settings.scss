@@ -1,18 +1,10 @@
 /* Подключаем компасс */
 @import "compass";
 
-$experimental-support-for-mozilla: true;
-$experimental-support-for-webkit: true;
-$support-for-original-webkit-gradients: true;
-$experimental-support-for-opera: true;
-$experimental-support-for-microsoft: true;
-$experimental-support-for-khtml: true;
-$experimental-support-for-svg: true;
-
 /* Включаем спрайты и загружаем иконки */
-$mysprite-layout:smart;
-@import "icons/*.png";
-@include all-icons-sprites;
+// $mysprite-layout:smart;
+// @import "icons/*.png";
+// @include all-icons-sprites;
 
 // $icons: ('export', 'globus', 'lampochka');
 
@@ -100,6 +92,17 @@ body {
 body.onload {overflow:hidden;}
 button, select {-webkit-appearance: none;}
 
+/* выделение текста */
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
 /* В дополнение от Bootstrap, <p> (параграфы) получают нижний отступ в половину калькулируемой высоты строки (изначально 10px) */
 p {
 	margin-bottom: 20px; /* для правильного вертикального ритма */
@@ -113,6 +116,23 @@ a {
 	
 	&:hover {}
 	&:active {}
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
 }
 
 /* tables */

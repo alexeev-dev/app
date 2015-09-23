@@ -11,7 +11,7 @@ $gray-color: #333333;
 
 
 // backgrounds
-.bg-gray {background: #f5f6f7;}
+// .bg-gray {background: #f5f6f7;}
 
 // preloader
 .preloader {}
@@ -20,6 +20,7 @@ $gray-color: #333333;
 
 // application
 .app {
+  height: 1000px;
 
   // header
   .header {
@@ -38,10 +39,10 @@ $gray-color: #333333;
   }
 
   // RESPONSIVE - Bootstrap sizes
-  @include respond-to(mobile) { background: red; };
-  @include respond-to(xs) { background: black; };
-  @include respond-to(sm) { background: blue; };
-  @include respond-to(md) { background: green; };
+  @include respond-to(desktop) {background: none; };
   @include respond-to(lg) { background: orange; };
-  @include respond-to(desktop) {background: none;};
+  @include respond-to(md) { background: green; };
+  @include respond-to(sm) { background: blue; };
+  @include respond-to(xs) { background: black; };
+  @include respond-to(mobile) { background: red; };
 }
