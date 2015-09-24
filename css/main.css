@@ -238,47 +238,43 @@ HTML5 : text, text, datetime, datetime-local, date, month, time, week, number, e
 
 /* fonts */
 /* colors */
-/* line 22, ../sass/_style.scss */
+/* line 21, ../sass/_style.scss */
 .app {
   height: 1000px;
 }
 @media only screen and (max-width: 1300px) {
-  /* line 22, ../sass/_style.scss */
+  /* line 21, ../sass/_style.scss */
   .app {
     background: none;
   }
 }
 @media only screen and (max-width: 1199px) {
-  /* line 22, ../sass/_style.scss */
+  /* line 21, ../sass/_style.scss */
   .app {
     background: orange;
   }
 }
 @media only screen and (max-width: 991px) {
-  /* line 22, ../sass/_style.scss */
+  /* line 21, ../sass/_style.scss */
   .app {
     background: green;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 22, ../sass/_style.scss */
+  /* line 21, ../sass/_style.scss */
   .app {
     background: blue;
   }
 }
 @media only screen and (max-width: 481px) {
-  /* line 22, ../sass/_style.scss */
+  /* line 21, ../sass/_style.scss */
   .app {
     background: black;
   }
 }
 @media only screen and (max-width: 320px) {
-  /* line 22, ../sass/_style.scss */
+  /* line 21, ../sass/_style.scss */
   .app {
     background: red;
   }
 }
-
-/* Welcome to Compass. Use this file to define print styles.
- * Import this file using the following HTML or equivalent:
- * <link href="/css/print.css" media="print" rel="stylesheet" type="text/css" /> */
